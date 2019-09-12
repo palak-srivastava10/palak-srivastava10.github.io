@@ -84,7 +84,7 @@ DATABASES = {
          'NAME' : 'agricom',
          'USER' : 'postgres',
          'HOST' : 'localhost',
-         'PASSWORD' : 'palak',
+         'PASSWORD' : '#####',
          'PORT' : '5432',
     }
 }
