@@ -2,7 +2,6 @@
 {% load leaflet_tags %}
 {% leaflet_js %}
 {% leaflet_css %}
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,7 +14,6 @@
   <link rel="shortcut icon" href="{% static 'img/favicon.png' %}">
 
   <title>Welcome-Web GIS Portal (GWD)</title>
-
 
   <!-- Bootstrap CSS -->
   <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
@@ -198,7 +196,7 @@
               transparent: true,
               layers: "lucknow:up75_dist_bound"
               
-            });ind_dat.addTo(map);
+            });//ind_dat.addTo(map);
             googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
     maxZoom: 20,
     subdomains:['mt0','mt1','mt2','mt3']
